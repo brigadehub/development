@@ -1,15 +1,6 @@
-[submodule "suite"]
-	path = suite
-	url = git@github.com:brigadehub/brigadehub.git
 [submodule "core"]
 	path = core
 	url = git@github.com:brigadehub/core.git
-[submodule "theme-public-c4sf"]
-	path = theme-public-c4sf
-	url = git@github.com:brigadehub/theme-public-c4sf.git
-[submodule "theme-admin-c4sf"]
-	path = theme-admin-c4sf
-	url = git@github.com:brigadehub/theme-admin-c4sf.git
 [submodule "distributions/mini"]
 	path = distributions/mini
 	url = git@github.com:brigadehub/mini.git
