@@ -19,3 +19,9 @@
 [submodule "distributions/suite"]
 	path = distributions/suite
 	url = git@github.com:brigadehub/brigadehub.git
+[submodule "themes/c4sf/admin"]
+	path = themes/c4sf/admin
+	url = git@github.com:brigadehub/theme-admin-c4sf.git
+[submodule "themes/c4sf/public"]
+	path = themes/c4sf/public
+	url = git@github.com:brigadehub/theme-public-c4sf.git
