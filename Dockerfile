@@ -22,19 +22,21 @@ COPY ./core ./core
 COPY ./themes/c4sf/public ./public
 COPY ./themes/c4sf/admin ./admin
 
-WORKDIR ./core
+ENV DIRPATH ./
+
+WORKDIR $DIRPATH/core
 RUN make install
 RUN make link
 
-WORKDIR ./admin
+WORKDIR $DIRPATH/admin
 RUN make install
 RUN make link
 
-WORKDIR ./public
+WORKDIR $DIRPATH/public
 RUN make install
 RUN make link
 
-WORKDIR ./suite
+WORKDIR $DIRPATH/suite
 
 EXPOSE 5555
 
